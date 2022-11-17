@@ -1,0 +1,6 @@
+/* Default styles (for debugging) */
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}

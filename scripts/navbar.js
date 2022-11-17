@@ -1,0 +1,1 @@
+// Use this script to fetch "navbar.html" from templates/
