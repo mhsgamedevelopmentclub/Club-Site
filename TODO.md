@@ -1,0 +1,27 @@
+### To-do:
+- [ ] Frontend
+  - [ ] index.html
+    - [ ] markup
+    - [ ] css
+  - [ ] tms.html
+    - [ ] markup
+    - [ ] css
+  - [ ] calendar.html
+    - [ ] markup
+    - [ ] css
+  - [ ] about.html
+    - [ ] markup
+    - [ ] css
+  - [ ] templates
+    - [ ] navbar.html
+    - [ ] footer.html
+    - [ ] team.html
+- [ ] backend
+  - [ ] AJAX
+    - [ ] fetch navbar
+    - [ ] fetch footer
+    - [ ] fetch content from cms for team.html
+  - [ ] CMS
+    - [ ] Setup google cloud
+    - [ ] Connect spreadsheet to project
+    - [ ] setup input for spreadsheet
