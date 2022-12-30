@@ -1,0 +1,26 @@
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; /* For debugging */
+}
+
+section, 
+article, 
+aside, 
+footer, 
+header, 
+nav {
+    display: block;
+}
+
+/* Header */
+.clublogo {
+    width: 20%;
+    height: 20%
+}
+
+/* Main */
+
+/* Footer */
