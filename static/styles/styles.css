@@ -18,5 +18,16 @@ nav {
 /* Header */
 
 /* Main */
+    /* Calendar */
+    .calendar-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calendar-container h1 {
+        align-self: flex-start;
+        padding: 28px 52px;
+    }
 
 /* Footer */
