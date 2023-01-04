@@ -13,9 +13,10 @@ html, body {
   font-family: 'VT323', monospace;
   font-size: 75px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
-div {
+#homeRow {
   display: flex;
   align-items: center;
   background-color: gray;
@@ -23,6 +24,72 @@ div {
   height: 140px;
 }
 
-#downdrop {
-  width: 60px;
+#carouselExampleFade {
+  width: 100%;
+}
+
+.d-block {
+  height: 600px;
+}
+
+#heading {
+  overflow: auto;
+}
+
+#chapters {
+  border: 3px black solid;
+  width: 350px;
+  height: 700px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+#content {
+  width: 1050px;
+  border: 3px black solid;
+}
+
+#info {
+  display: flex;
+}
+
+#footer {
+  background-color: gray;
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+svg {
+  width: 33%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.bi-instagram {
+  float: left;
+}
+
+.bi-github {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bi-discord {
+  float: right;
+}
+
+#gmailLink {
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+#copyRight {
+  text-align: center;
+  margin-top: 10px;
+  display: block;
 }
