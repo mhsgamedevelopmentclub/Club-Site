@@ -26,6 +26,7 @@ nav {
 
         margin-top: 3rem;
         width: 100%;
+        color: white;
     }
 
     .hero-index {
@@ -43,11 +44,6 @@ nav {
         padding-bottom: 3rem;
     }
 
-    .hero-index *,
-    .hero-page * {
-        color: white;
-    }
-
     .clublogo {
         width: 15%;
         height: 15%;
@@ -55,27 +51,26 @@ nav {
 
 /* main */
     .feed-container {
-        background-color: lightcoral;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
+        background-color: #495596;
+        padding: 4rem;
     }
 
     .feed {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+        color: white;
     }
 
     .content-container {
         background-color: lightblue;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
+        padding: 4rem;
     }
 
     .topic-container {
         background-color: lightgoldenrodyellow;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding: 4rem;
     }
 
     .topics {
