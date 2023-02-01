@@ -50,6 +50,10 @@ nav {
     }
 
 /* main */
+    main .row:not(.row:last-child) {
+        border-bottom: 0.5rem solid #495596;
+    }
+
     .feed-container {
         background-color: #495596;
         padding: 4rem;
@@ -73,14 +77,23 @@ nav {
         padding: 4rem;
     }
 
+    .topic-container h3 {
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
     .topics {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
+    .card-body {
+        text-align: center;
+    }
+
     .event-container {
-        background-color: lightgreen;
+        background-color: #f6f6f6;
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
