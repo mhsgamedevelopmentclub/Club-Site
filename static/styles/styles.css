@@ -36,6 +36,11 @@ nav {
 
         padding-top: 16rem;
         padding-bottom: 16rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .hero-index strong {
+        font-size: 1.5rem;
     }
 
     .hero-page {
@@ -88,6 +93,10 @@ nav {
         justify-content: space-around;
     }
 
+    .card {
+        width: 30%;
+    }
+
     .card-body {
         text-align: center;
     }
@@ -104,41 +113,35 @@ nav {
     }
 
 /* Footer */
-    #footer {
+    footer {
         background-color: #354082;
-        height: 200px;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    svg {
-        width: 33%;
-        height: 50px;
-        margin-top: 50px;
+    footer hr {
+        width: 80%;
     }
 
-    .bi-instagram {
-        float: left;
+    .social-icons {
+        padding-top: 4rem;
+        padding-top: 2rem;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .bi-github {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .bi-discord {
-        float: right;
-    }
-
-    #gmailLink {
+    .gmailLink {
         text-align: center;
         margin-top: 10px;
         display: block;
-        font-size: 20px;
-        letter-spacing: 2px;
+        font-size: 1.25rem;
+        letter-spacing: 0.2rem;
         color: black;
     }
 
-    #copyRight {
+    .copyRight {
         text-align: center;
         margin-top: 10px;
         display: block;
