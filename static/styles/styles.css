@@ -153,24 +153,21 @@ nav {
     }
 
     .adminSectionPhoto {
-        border: black solid 1px;
+        outline: black solid 1px;
         /*Debugging*/
-        width: 30%;
-        height: 400px;
         background-color: #495596;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .adminSectionBio {
-        border: black solid 1px;
+        outline: black solid 1px;
         /*Debugging*/
-        width: 70%;
-        height: 400px;
     }
 
-    #colePhoto {
-        width: 60%;
-        height: 80%;
+    .colePhoto {
         border-radius: 130px;
-        margin: 40px 90px;
-        /*centers the image in the photo div/*
+        height: 80%;
     }
