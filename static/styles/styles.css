@@ -149,18 +149,23 @@ nav {
 
     .adminSectionPhoto {
         border: black solid 1px;
-        width: 30%;
-        height: 200px;
         /*Debugging*/
+        width: 30%;
+        height: 400px;
+        background-color: #495596;
     }
 
     .adminSectionBio {
         border: black solid 1px;
-        width: 70%;
-        height: 200px;
         /*Debugging*/
+        width: 70%;
+        height: 400px;
     }
 
     #colePhoto {
-        padding-left: 50px;
+        width: 60%;
+        height: 80%;
+        border-radius: 130px;
+        margin: 40px 90px;
+        /*centers the image in the photo div/*
     }
