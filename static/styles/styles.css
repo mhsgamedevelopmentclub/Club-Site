@@ -146,3 +146,21 @@ nav {
         margin-top: 10px;
         display: block;
     }
+
+    .adminSectionPhoto {
+        border: black solid 1px;
+        width: 30%;
+        height: 200px;
+        /*Debugging*/
+    }
+
+    .adminSectionBio {
+        border: black solid 1px;
+        width: 70%;
+        height: 200px;
+        /*Debugging*/
+    }
+
+    #colePhoto {
+        padding-left: 50px;
+    }
