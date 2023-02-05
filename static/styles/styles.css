@@ -55,6 +55,11 @@ nav {
     }
 
 /* main */
+    .calendar-container,
+    .team-container {
+        background-color: #f6f6f6;
+    }
+
     main .row:not(.row:last-child) {
         border-bottom: 0.5rem solid #495596;
     }
