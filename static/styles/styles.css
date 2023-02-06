@@ -177,10 +177,10 @@ nav {
         /*Debugging*/
         background-color: #495596;
         width: 30%;
-
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 450px;
     }
 
     .adminSectionBio {
@@ -191,5 +191,5 @@ nav {
 
     .colePhoto {
         border-radius: 130px;
-        height: 80%;
+        height: 80%
     }
