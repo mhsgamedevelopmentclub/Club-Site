@@ -188,8 +188,12 @@ nav {
         /*Debugging*/
         width: 70%;
     }
+    .photo {
+        border-radius: 100%;
+    }
 
-    .colePhoto {
-        border-radius: 130px;
-        height: 80%
+    .display-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
