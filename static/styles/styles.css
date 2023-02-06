@@ -97,6 +97,11 @@ nav {
         padding: 4rem;
     }
 
+    .showcase-img {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
     .topic-container {
         background-color: #f6f6f6;
         padding: 4rem;
