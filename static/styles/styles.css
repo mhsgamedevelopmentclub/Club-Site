@@ -56,8 +56,18 @@ nav {
 
 /* main */
     .calendar-container,
-    .team-container {
+    .game-container {
         background-color: #f6f6f6;
+    }
+
+    .game-container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .card-body a {
+        text-decoration: none;
+        color: black;
     }
 
     main .row:not(.row:last-child) {
@@ -75,6 +85,11 @@ nav {
         align-items: center;
         
         color: white;
+    }
+
+    .feed hr {
+        color: #354082;
+        width: 100%;
     }
 
     .content-container {
