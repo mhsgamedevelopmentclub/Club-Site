@@ -176,6 +176,7 @@ nav {
         outline: black solid 1px;
         /*Debugging*/
         background-color: #495596;
+        width: 30%;
 
         display: flex;
         justify-content: center;
@@ -185,6 +186,7 @@ nav {
     .adminSectionBio {
         outline: black solid 1px;
         /*Debugging*/
+        width: 70%;
     }
 
     .colePhoto {
