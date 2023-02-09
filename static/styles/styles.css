@@ -213,3 +213,8 @@ nav {
         border-radius: 200px;
         margin-top: 5rem;
     }
+
+    .display-6 {
+        position: absolute;
+        margin-top: 10px;
+    }
