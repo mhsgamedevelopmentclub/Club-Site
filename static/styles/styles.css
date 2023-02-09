@@ -195,3 +195,21 @@ nav {
         justify-content: center;
         align-items: center;
     } */
+
+    .col-4 {
+        border: 1px solid black;
+        /*Debugging*/
+        height: 1000px;
+    }
+
+    .adminSectionPhoto {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        background-color: #495596;
+    }
+
+    .photo {
+        border-radius: 200px;
+        margin-top: 5rem;
+    }
