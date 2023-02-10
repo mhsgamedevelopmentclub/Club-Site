@@ -199,7 +199,7 @@ nav {
     .col-4 {
         border: 1px solid black;
         /*Debugging*/
-        height: 1000px;
+        height: 800px;
     }
 
     .adminSectionPhoto {
@@ -219,5 +219,9 @@ nav {
     .display-6 {
         position: absolute;
         margin-top: 10px;
+        color: white;
+    }
+
+    .bioParagraph {
         color: white;
     }
