@@ -204,6 +204,8 @@ nav {
 
     .adminSectionPhoto {
         display: flex;
+        flex-wrap: wrap;
+        overflow: none;
         justify-content: center;
         align-items: start;
         background-color: #495596;
