@@ -225,3 +225,11 @@ nav {
     .bioParagraph {
         color: white;
     }
+
+    @media (max-width: 767px) {
+        .col-4 {
+            /* background-color: black; 
+            Checking for screen size when size shrinks down*/
+            height: 1100px;
+        }
+    }
