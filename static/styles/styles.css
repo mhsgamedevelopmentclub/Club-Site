@@ -234,6 +234,12 @@ nav {
         }
     }
 
+    @media (max-width: 500px) {
+        body {
+            background-color: black;
+        }
+    }
+
     #harleyDrawing {
         width: 30%;
         height: 30%;
