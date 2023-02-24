@@ -1,1 +1,0 @@
-// Use this script to fetch "footer.html" from templates/
