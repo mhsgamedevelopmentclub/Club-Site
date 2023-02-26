@@ -30,10 +30,10 @@
                             <a class="nav-link" href="calendar.html">Calendar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link disabled" href="artgal.html">Art Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="artgal.html">Art Gallery</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                     </ul>
                 </div>
@@ -47,56 +47,75 @@
 
     <!-- Main -->
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="adminSectionPhoto col-4">
-                    <img class="photo img-fluid" src="static/images/co-leader_photo.png" alt="Cole's photo">
-                    <h1 class="display-6">Cole Saldanha</h1>
-                    <p class="bioParagraph"></p>
-                </div>
-                <div class="adminSectionPhoto col-4">
-                    <img class="photo img-fluid" src="static/images/co-founder(1)_photo.jpg" alt="Riley's Photo">
-                    <h1 class="display-6">Riley King</h1>
-                    <p class="bioParagraph">Hi my name is Riley, I’m a senior at Mountainside high school. Last year I ran the coding club now known as game development club and contributed to the programming and art of a game. Now I run the club with Cole and Gage and am currently working on making the pixel art for our next game.</p>
-                </div>
-                <div class="adminSectionPhoto col-4">
-                    <img class="photo img-fluid" src="static/images/co-founder(2)_photo.jpg" alt="Gage's Photo">
-                    <h1 class="display-6">Gage Empey</h1>
-                    <p class="bioParagraph">Hello, my name is Gage. I am a senior at Mountainside High School. I used to be in the Coding Club last year and now I help run the Game Development Club. I am a programmer and a musician. I know a variety of different languages but the most common ones that I use the most are the web development languages (HTML, CSS, JS), C#, Python and GD script. I also play guitar and I have been playing for over 6 years now and currently in the Jazz band Orchestra for Mountainside. </p>
-                    <br>
-                </div>
+        <div class="about-container container-fluid">
+            <section class="about-info mx-auto w-75">
+                <h3>About</h3>
+                <hr>
+                <p>
+                    We act as the main tech club among Mountainside Highschool's variety of clubs. Our goal
+                    is to provide a space where programmers, artists, designers, etc. can meetup and collaborate
+                    on various gamedev related projects and competitions. Our main focus of the club is also to
+                    participate in the Oregon Game Project Challenge (OGPC), where those interested will be 
+                    split into groups to develop a functioning game by the competiton's deadline in May while
+                    sticking to a specific theme
+                </p>
+            </section>
+            <div class="admin-header text-center mx-auto w-75">
+                <h3>Club Admins</h3>
+                <hr>
             </div>
-
-        <!-- <section>
-            <div class="row">
-                <div class="adminSectionPhoto col-4">
-                    <img class="photo img-fluid" src="static/images/co-leader_photo.png" alt="Cole's photo">
-                </div>
-                <div class="adminSectionBio col-8">
-                    <h1 class="display-4">Cole Saldanha</h1>
-                </div>
+            <div class="container-fluid overflow-hidden">
+                <section class="row g-5 mx-auto w-75">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="static/images/co-leader_photo.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Cole Saldanha</h4>
+                                <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#bio1">bio</button>
+                                <p id="bio1" class="card-text collapse">
+                                    Hi my name is Cole, I'm a junior at Mountainside High School. My role is 
+                                    managing the club's teams and club documentation/forms. I have a heavy interest
+                                    in the field of computer science, as well as in FOSS software. I am currently 
+                                    working on programming our group's game using the Godot engine.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="static/images/co-founder(1)_photo.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Riley King</h4>
+                                <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#bio2">bio</button>
+                                <p id="bio2" class="card-text collapse">
+                                    Hi my name is Riley, I’m a senior at Mountainside High School. Last year I ran 
+                                    the coding club now known as game development club and contributed to the programming 
+                                    and art of a game. Now I run the club with Cole and Gage and am currently working on 
+                                    making the pixel art for our next game.
+                                </p>
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="static/images/co-founder(2)_photo.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Gage Empey</h4>
+                                <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#bio3">bio</button>
+                                <p id="bio3" class="card-text collapse">
+                                    Hello, my name is Gage. I am a senior at Mountainside High School. 
+                                    I used to be in the Coding Club last year and now I help run the Game Development Club. 
+                                    I am a programmer and a musician. I know a variety of different languages but the most 
+                                    common ones that I use the most are the web development languages (HTML, CSS, JS), C#, 
+                                    Python and GD script. I also play guitar and I have been playing for over 6 years now and 
+                                    currently in the Jazz band Orchestra for Mountainside.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
-        <section>
-            <div class="row">
-                <div class="adminSectionPhoto">
-                    <img class="photo img-fluid" src="static/images/co-founder(1)_photo.jpg" alt="Riley's Photo">
-                </div>
-                <div class="adminSectionBio col-8">
-                    <h1 class="display-4">Riley King</h1>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="row">
-                <div class="adminSectionPhoto col-4">
-                    <img class="photo img-fluid" src="static/images/co-founder(2)_photo.jpg" alt="Gage's Photo">
-                </div>
-                <div class="adminSectionBio col-8">
-                    <h1 class="display-4">Gage Empey</h1>
-                </div>
-            </div>
-        </section> -->
+        </div>
     </main>
     
     <!-- Footer -->
@@ -119,9 +138,7 @@
             </a>
         </div>
         <hr>
-        <div>
-            <a class="gmailLink" href="mailto:mhsgamedevelopmentclub@gmail.com">mhsgamedevelopmentclub@gmail.com</a>
-        </div>
+        <a class="gmailLink" href="mailto:mhsgamedevelopmentclub@gmail.com">mhsgamedevelopmentclub@gmail.com</a>
         <p class="copyRight">Copyright Ⓒ 2023 Mountainside Game Development Club</p>
     </footer>
 </body>

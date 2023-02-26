@@ -1,10 +1,8 @@
 /* Global */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; /* For debugging */
 }
 
 section, 
@@ -49,18 +47,15 @@ nav {
         padding-bottom: 3rem;
     }
 
-    .clublogo {
-        width: 15%;
-        height: 15%;
-    }
-
 /* main */
     .calendar-container,
-    .game-container {
+    .game-container,
+    .about-container {
         background-color: #f6f6f6;
     }
 
-    .game-container {
+    .game-container,
+    .about-container {
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
@@ -107,23 +102,22 @@ nav {
         padding: 4rem;
     }
 
-    .topic-container h3 {
-        padding-bottom: 4rem;
-        text-align: center;
-    }
-
-    .topics {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .card {
-        width: 30%;
-    }
-
     .card-body {
         text-align: center;
+    }
+
+    .admin-header {
+        padding-top: 2rem;
+    }
+
+    .about-container .card {
+        background-color: #495596;
+        color: white;
+    }
+
+    .about-container .card-img-top {
+        height: 15rem;
+        object-fit: cover;
     }
 
     .event-container {
@@ -135,6 +129,14 @@ nav {
     .calendar {
         padding-top: 3rem;
         padding-bottom: 3rem;
+    }
+
+    #harleyDrawing {
+        width: 30%;
+        height: 30%;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 /* Footer */
@@ -161,7 +163,6 @@ nav {
         text-align: center;
         margin-top: 10px;
         display: block;
-        font-size: 1.25rem;
         letter-spacing: 0.2rem;
         color: black;
     }
@@ -170,80 +171,4 @@ nav {
         text-align: center;
         margin-top: 10px;
         display: block;
-    }
-
-    /* .adminSectionPhoto {
-        outline: black solid 1px;
-        background-color: #495596;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 450px;
-    }
-
-    .adminSectionBio {
-        outline: black solid 1px;
-        width: 70%;
-    }
-    .photo {
-        border-radius: 100%;
-    }
-
-    .display-4 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-
-    .col-4 {
-        border: 1px solid black;
-        /*Debugging*/
-        height: 800px;
-    }
-
-    .adminSectionPhoto {
-        display: flex;
-        flex-wrap: wrap;
-        overflow: none;
-        justify-content: center;
-        align-items: start;
-        background-color: #495596;
-    }
-
-    .photo {
-        border-radius: 200px;
-        margin-top: 5rem;
-    }
-
-    .display-6 {
-        position: absolute;
-        margin-top: 10px;
-        color: white;
-    }
-
-    .bioParagraph {
-        color: white;
-    }
-
-    @media (max-width: 767px) {
-        .col-4 {
-            /* background-color: black; 
-            Checking for screen size when size shrinks down*/
-            height: 1100px;
-        }
-    }
-
-    @media (max-width: 500px) {
-        body {
-            background-color: black;
-        }
-    }
-
-    #harleyDrawing {
-        width: 30%;
-        height: 30%;
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
     }
