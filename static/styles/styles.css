@@ -120,6 +120,11 @@ nav {
         object-fit: cover;
     }
 
+    #googleDriveButton {
+        text-decoration: none;
+        color: black;
+    }
+
     .event-container {
         background-color: #f6f6f6;
         padding-top: 4rem;
