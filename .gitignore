@@ -1,0 +1,6 @@
+# Ignore branding and design templates
+design/
+
+# Ignore temporary files and scripts
+temp/
+**.sh
