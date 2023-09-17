@@ -1,6 +1,9 @@
 # Ignore branding and design templates
 design/
 
+# Ignore TODO list
+TODO.md
+
 # Ignore temporary files and scripts
 temp/
 **.sh

@@ -1,3 +1,12 @@
+/* Color Codes */
+:root {
+    --black: #231f20;
+    --white: #f6f6f6;
+    --silver: #d1d3d3;
+    --blue: #7daed3;
+    --dark-blue: #577A94;
+}
+
 /* Global */
 * {
     margin: 0;
@@ -15,8 +24,17 @@ nav {
 }
 
 /* Header */
+    header nav {
+        background-color: var(--blue);
+    }
+
+    .logo {
+        width: 3rem;
+    }
+
     .hero-index,
     .hero-page {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/group_photo.svg");
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -24,11 +42,10 @@ nav {
 
         margin-top: 3rem;
         width: 100%;
-        color: white;
+        color: var(--white);
     }
 
     .hero-index {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/group_photo.svg");
         background-size: cover;
         background-position: center;
 
@@ -42,7 +59,6 @@ nav {
     }
 
     .hero-page {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/group_photo.svg");
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
@@ -51,7 +67,7 @@ nav {
     .calendar-container,
     .game-container,
     .about-container {
-        background-color: #f6f6f6;
+        background-color: var(--white);
     }
 
     .game-container,
@@ -62,15 +78,11 @@ nav {
 
     .game-link {
         text-decoration: none;
-        color: black;
+        color: var(--black);
     }
 
-    main .row:not(.row:last-child) {
-        border-bottom: 0.5rem solid #495596;
-    }
-
-    .feed-container {
-        background-color: #495596;
+    .feed-container {   
+        background-color: var(--blue);
         padding: 4rem;
     }
 
@@ -79,16 +91,16 @@ nav {
         flex-direction: column;
         align-items: center;
         
-        color: white;
+        color: var(--white);
     }
 
     .feed hr {
-        color: #354082;
+        color: var(--dark-blue);
         width: 100%;
     }
 
     .content-container {
-        background-color: #f6f6f6;
+        background-color: var(--white);
         padding: 4rem;
     }
 
@@ -98,7 +110,7 @@ nav {
     }
 
     .topic-container {
-        background-color: #f6f6f6;
+        background-color: var(--silver);
         padding: 4rem;
     }
 
@@ -106,13 +118,9 @@ nav {
         text-align: center;
     }
 
-    .admin-header {
-        padding-top: 2rem;
-    }
-
     .about-container .card {
-        background-color: #495596;
-        color: white;
+        background-color: var(--blue);
+        color: var(--white);
     }
 
     .about-container .card-img-top {
@@ -120,13 +128,8 @@ nav {
         object-fit: cover;
     }
 
-    #googleDriveButton {
-        text-decoration: none;
-        color: black;
-    }
-
     .event-container {
-        background-color: #f6f6f6;
+        background-color: var(--white);
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
@@ -145,7 +148,7 @@ nav {
 
 /* Footer */
     footer {
-        background-color: #354082;
+        background-color: var(--blue);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -163,12 +166,19 @@ nav {
         justify-content: space-around;
     }
 
+    footer a, footer p {
+        color: var(--white);
+    }
+
+    footer hr {
+        color: var(--dark-blue);
+    }
+
     .gmailLink {
         text-align: center;
         margin-top: 10px;
         display: block;
         letter-spacing: 0.2rem;
-        color: black;
     }
 
     .copyRight {
