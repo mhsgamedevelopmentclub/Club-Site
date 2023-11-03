@@ -40,9 +40,8 @@ nav {
         justify-content: center;
         align-items: center;
 
-        margin-top: 3rem;
         width: 100%;
-        color: var(--white);
+        color: #f6f6f6;
     }
 
     .hero-index {
